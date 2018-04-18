@@ -15,6 +15,7 @@ from tilemap import *
 class Game:
     def __init__(self):
         #initiates the game by initiating pygame, setting a screen to draw on
+        self.bacon = 2500
         pg.init()
         self.screen = pg.display.set_mode((WIDTH, HEIGHT))
         pg.display.set_caption(TITLE)
